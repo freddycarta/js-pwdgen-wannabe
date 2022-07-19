@@ -11,4 +11,7 @@ console.log(color);
 
 const hello = document .getElementById('hello')
 
-document.getElementById('hello').innerText = Name + surname + color + '21'
+var randInt = Math.floor(Math.random()*100);
+console.log (randInt);
+
+document.getElementById('hello').innerText = Name +  surname + color + randInt;
